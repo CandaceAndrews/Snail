@@ -1,0 +1,3 @@
+# Snail
+
+Notes for class

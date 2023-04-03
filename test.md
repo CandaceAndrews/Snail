@@ -6,12 +6,14 @@ Description: Base url for the API
 - Content-Type: application/json
 
 
+
 ## 🐺 /cards/
 
 Description: Retrieves a list of all cards in the API.
 
 - Allowed Request: GET
 - Content-Type: application/json
+
 
 
 ## 🐸 /cards/:id/
@@ -22,12 +24,14 @@ Description: Retreves data for card with specified id
 - Content-Type: application/json
 
 
+
 ## 🐠 /cards/search/
 
 Description: Search cards based on these fields: messages, font, color, border
 
 - Allowed Request: GET
 - Content-Type: application/json
+
 
 
 ## 🪲 /cards/create/
@@ -38,6 +42,7 @@ Description: Creates a new card
 - Content-Type: application/json
 
 Example POST:
+```
 {
 	"title_text": "how are you?",
 	"card_front_message": "how are you? haven't seen you in a while",
@@ -46,8 +51,9 @@ Example POST:
 	"border": "dashed",
 	"font": "times new roman"
 }
-
+```
 Stored As:
+```
 {
     "id": 9,
     "created_by": "victor",
@@ -59,6 +65,7 @@ Stored As:
     "border": "dashed",
     "font": "times new roman"
 }
+```
 
 
 ## 🐝 /users/
@@ -69,12 +76,14 @@ Description: List out all users
 - Content-Type: application/json
 
 
+
 ## 🌿 /users/:id/
 
 Description: Retreves data for user with specified id 
 
 - Allowed Request: GET
 - Content-Type: application/json
+
 
 
 ## 🐬 users/my-cards/
@@ -85,6 +94,7 @@ Description: List of cards you(the logged in user) have created
 - Content-Type: application/json
 
 
+
 ## 🐏 /auth/users/
 
 Description: Creates a new user if POST request, see list of authorized users if GET request
@@ -93,18 +103,22 @@ Description: Creates a new user if POST request, see list of authorized users if
 - Content-Type: application/json
 
 Example POST:
+```
 {
     "email": "bugsnacks@gmail.com",
 	"username": "littlecowboy",
 	"password": "toad4life"
 }
-
+```
 Stored As:
+```
 {
     "email": "bugsnacks@gmail.com",
     "id": 10,
     "username": "littlecowboy"
 }
+```
+
 
 
 ## 🌸 /auth/token/login/
@@ -115,10 +129,12 @@ Description: User login (user gets token, expires after certain amount of time)
 - Content-Type: application/json
 
 Example POST:
+```
 {
     "password": "quetzalcoatlus",
     "username": "ivar"
 }
+```
 
 
 ## 🐓 /auth/token/logout/

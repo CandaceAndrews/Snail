@@ -26,7 +26,7 @@
 	Install redux in your local environment
 
 ### python -m pip install django-debug-toolbar
-I	nstall Django-tool bar
+	Install Django-tool bar
 
 ### pip install django-extensions
 	install django extensions

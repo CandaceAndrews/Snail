@@ -1,57 +1,57 @@
-Back-end day #1:
+### Git Commands
+___
 
-git checkout main
-git pull
-git checkout <branch>
-git merge main
+- git checkout main
+- git pull
+- git checkout <branch>
+- git merge main
 
-git add .
-git commit -m ""
-git push origin <branch>
+- git add .
+- git commit -m ""
+- git push origin <branch>
+
+___
 
 
 *hard to change initial settings once the first migration is made*
 - Don’t make migrations until at Auth_user part
-——————————————————————————————————
-pipenv install —————> to have same environment
 
-git checkout  setup ——>  move branches
+___
 
-git fetch  ————————> updates branch names
+# pipenv install 
+——> to have same environment
 
-git status ————————> view status
+# git checkout  setup 
+——>  move branches
 
-git branch ———————> to see what branches you have
+# git fetch 
+——> updates branch names
 
-git remote -v —————> see link to push
+# git status
+——> view status
 
-git stash ———————> temporary save what you’re doing in branch so you can switch
+# git branch
+——> to see what branches you have
 
-git stash apply ————-> apply stashed save
+# git remote -v
+——> see link to push
 
-git checkout -b [name][initials to id] ———> create new branch
+# git stash 
+——> temporary save what you’re doing in branch so you can switch
 
-git log --oneline -------> view log of commit history with id
+# git stash apply 
+——> apply stashed save
 
-* Rm -rf 
-(Remove directory)
+# git checkout -b [name][initials to id] 
+———> create new branch
 
------------------------------------
+# git log --oneline 
+——> view log of commit history with id
 
-* git reset —hard origin/main
+___
+
+# git reset —hard origin/main
 	(Make changes go away and make yours look like git hub)
 
-* git clean -xdf
+# git clean -xdf
 	(Delete files in directory)
-
-* pipenv install
-	(To have same dependencies that the original branch has that you pulled)
-
-
-
-DO EACH TIME WHEN YOU PULL GITHUB MAIN:
-* Pipenv install
-* Python manage.py migrate
-
-----------------------------------
-

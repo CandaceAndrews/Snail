@@ -1,4 +1,3 @@
-Back-end #4
 
 * Curl “<url>” >> .gitignore
 
@@ -7,7 +6,5 @@ Back-end #4
   
 AUTH_USER_MODEL = settings.AUTH_USER_MODEL
 
-__________________________________________
 
-arg is argument
-kwarg is key word argument (example name=)
+

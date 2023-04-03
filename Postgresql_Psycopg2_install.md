@@ -1,31 +1,34 @@
 ### Brew services start postgresql@14
-Run postgresql
+	Run postgresql
 
 ### Brew services stop postgresql@14
-Stopy postgrexsql
+	Stopy postgrexsql
 
 ### Brew services restart postgresql@14
-Make sure it is running
+	Make sure it is running
 
 ### Create user -d <username>
+	create user for database
 
 ### Createdb -U <username> <dbname>
+	create database name
 
 ### Sql -l
-View databases in your computer
+	View databases in your computer
 
 ###  pipenv install psycopg2-binary
-package that works with Django
+	package that works with Django
 
 ### git reset --hard origin/main
-Reset main
+	Reset main
 
 ### pip install django-registration-redux
-Install redux in your local environment
+	Install redux in your local environment
 
 ### python -m pip install django-debug-toolbar
-Install Django-tool bar
+I	nstall Django-tool bar
 
-### pip install django-extensions(install Django extensions)
+### pip install django-extensions
+	install django extensions
 
 ### pip install whitenoise

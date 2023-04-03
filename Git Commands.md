@@ -1,4 +1,4 @@
-### Git Commands
+# Git Commands
 ___
 
 - git checkout main
@@ -18,40 +18,40 @@ ___
 
 ___
 
-# pipenv install 
+### pipenv install 
 ——> to have same environment
 
-# git checkout  setup 
+### git checkout  setup 
 ——>  move branches
 
-# git fetch 
+### git fetch 
 ——> updates branch names
 
-# git status
+### git status
 ——> view status
 
-# git branch
+### git branch
 ——> to see what branches you have
 
-# git remote -v
+### git remote -v
 ——> see link to push
 
-# git stash 
+### git stash 
 ——> temporary save what you’re doing in branch so you can switch
 
-# git stash apply 
+### git stash apply 
 ——> apply stashed save
 
-# git checkout -b [name][initials to id] 
+### git checkout -b [name][initials to id] 
 ———> create new branch
 
-# git log --oneline 
+### git log --oneline 
 ——> view log of commit history with id
 
 ___
 
-# git reset —hard origin/main
+### git reset —hard origin/main
 	(Make changes go away and make yours look like git hub)
 
-# git clean -xdf
+### git clean -xdf
 	(Delete files in directory)

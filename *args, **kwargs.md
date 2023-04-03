@@ -1,4 +1,4 @@
-### *args and **kwargs Notes
+# *args and **kwargs Notes
 
 *args and **kwargs are used to handle variable length arguments in Python. *args is used to pass a variable number of positional arguments to a function, while **kwargs is used to pass a variable number of keyword arguments.
 

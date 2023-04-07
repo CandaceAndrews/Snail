@@ -8,6 +8,7 @@ Description: Base url for the API
 ___
 
 
+
 ## 🐺  /cards/
 
 Description: Retrieves a list of all cards in the API.
@@ -18,14 +19,30 @@ Description: Retrieves a list of all cards in the API.
 ___
 
 
-## 🐸  /cards/:id/
+
+## 🐸  /cards/id/
 
 Description: Retreves data for card with specified id 
 
 - Allowed Request: GET
 - Content-Type: application/json
 
+Stored As:
+```
+{
+    "id": 12,
+    "created_by": "sterling",
+    "title_text": "hi",
+    "card_front_message": "how are you?",
+    "card_back_message": "miss you",
+    "created_at": "2023-04-04T14:16:55.131376Z",
+    "color": "red",
+    "border": "dotted",
+    "font": "times new roman"
+}
+```
 ___
+
 
 
 ## 🐠  /cards/search/
@@ -36,6 +53,7 @@ Description: Search cards based on these fields: messages, font, color, border
 - Content-Type: application/json
 
 ___
+
 
 
 ## 🪲  /cards/create/
@@ -70,32 +88,53 @@ Stored As:
     "font": "times new roman"
 }
 ```
-___
-
-
-## 🐝  /users/
-
-Description: List out all users
-
-- Allowed Request: GET
-- Content-Type: application/json
 
 ___
 
 
-## 🌿  /users/:id/
+
+## 🌿  /users/id/
 
 Description: Retreves data for user with specified id 
 
 - Allowed Request: GET
 - Content-Type: application/json
 
+Stored As:
+```
+{
+	"id": 8,
+	"username": "ivar",
+	"cards_created": [
+		{
+			"card_id": 7,
+			"title_text": "Gift for you!"
+		},
+		{
+			"card_id": 8,
+			"title_text": "Merry Christmas!"
+		}
+	],
+	"followers": [
+        "superuser",
+        "snail"
+    ],
+	"following": [
+		"cleo",
+		"victor",
+		"sterling",
+		"quetzal"
+	]
+}
+```
+
 ___
 
 
-## 🐬  users/my-cards/
 
-Description: List of cards you(the logged in user) have created
+## 🐬  /my-cards/
+
+Description: List of cards you (the logged in user) have created
 
 - Allowed Request: GET
 - Content-Type: application/json
@@ -103,9 +142,64 @@ Description: List of cards you(the logged in user) have created
 ___
 
 
-## 🐏  /auth/users/
 
-Description: Creates a new user if POST request, see list of authorized users if GET request
+## 🦄   /users/my-cards/id/
+
+Description: If `GET` request view of card the logged in user has made, if `PATCH`request can edit and `DELETE` request for delete card
+
+- Allowed Request: GET, PUT, PATCH, DELETE
+- Content-Type: application/json
+
+___
+
+
+## 🦕   /following/
+
+Description: Get list of users you are following
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+
+___
+
+
+
+## 🪱   /users/following/cards/
+
+Description: Get list of cards from all the users you are following
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+
+___
+
+
+## 🦖   /follow/username/
+
+Description: Follow or unfollow another user, if `POST` request it will follow user, if `DELETE` request it will unfollow user
+
+- Allowed Request: POST, DELETE
+- Content-Type: application/json
+
+
+___
+
+
+## 🦢   /followship-count/
+
+Description: View count of user's followers and people they are following
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+
+___
+
+## 🐝   /auth/users/
+
+Description: Creates a new user if `POST` request, if `GET` request returns stored info for logged in user
 
 - Allowed Request: GET, POST
 - Content-Type: application/json
@@ -126,6 +220,7 @@ Stored As:
     "username": "littlecowboy"
 }
 ```
+
 ___
 
 
@@ -146,6 +241,7 @@ Example POST:
 ```
 
 ___
+
 
 
 ## 🐓  /auth/token/logout/

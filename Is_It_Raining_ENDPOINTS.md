@@ -54,7 +54,7 @@ ___
 
 ## 🦋 Profile
 
-Profile page
+Profile page, shows your info and all your animals
 
 - Allowed Request: GET, POST
 - Content-Type: application/json
@@ -69,6 +69,7 @@ Click to catch the animal
 - Content-Type: application/json
 
 ___
+
 ## 🐞 You Caught
 
 Screen showing the animal you just caught by clicking
@@ -77,11 +78,39 @@ Screen showing the animal you just caught by clicking
 - Content-Type: application/json
 
 ___
+
 ## 🐈 Search Page
 
 Page with search bar
 
 - Allowed Request: POST
+- Content-Type: application/json
+
+___
+
+## 🐘 Display Other's animals
+
+Show all the animals for the person you searched
+
+- Allowed Request: GET, POST
+- Content-Type: application/json
+
+___
+
+## 🦆 Your Animals (trading version)
+
+Show your animals - FOR TRADING
+
+- Allowed Request: GET, POST
+- Content-Type: application/json
+
+___
+
+## 🐄 You Selected (trading version)
+
+Show animal you want to trade, confirmation screen
+
+- Allowed Request: GET, POST
 - Content-Type: application/json
 
 ___

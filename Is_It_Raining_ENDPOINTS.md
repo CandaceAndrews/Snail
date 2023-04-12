@@ -124,7 +124,7 @@ Show animal you want to trade, confirmation screen
 
 ___
 
-## 🦒 Trade Requested
+## 🐝  Trade Requested
 
 Show notification that trade request has been sent
 

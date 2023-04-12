@@ -7,7 +7,7 @@ Login page
 
 ___
 
-## 🐌  Sign Up
+## 🦄  Sign Up
 
 Sign up page
 
@@ -16,7 +16,7 @@ Sign up page
 
 ___
 
-## 🐌  Store Location
+## 🦕  Store Location
 
 Store location of the user when they first make an account
 
@@ -25,7 +25,7 @@ Store location of the user when they first make an account
 
 ___
 
-## 🐌  Homepage
+## 🦖  Homepage
 
 homepage for app
 
@@ -34,11 +34,54 @@ homepage for app
 
 ___
 
-## 🐌  Hourly Weather
+## 🐁  Hourly Weather
 
 Hourly Weather Update
 
 - Allowed Request: GET
+- Content-Type: application/json
+
+___
+
+## 🦈  Weekly Weather
+
+Hourly Weather Update
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+___
+
+## 🦋 Profile
+
+Profile page
+
+- Allowed Request: GET, POST
+- Content-Type: application/json
+
+___
+
+## 🦌 Catch Animal
+
+Click to catch the animal
+
+- Allowed Request: POST
+- Content-Type: application/json
+
+___
+## 🐞 You Caught
+
+Screen showing the animal you just caught by clicking
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+___
+## 🐈 Search Page
+
+Page with search bar
+
+- Allowed Request: POST
 - Content-Type: application/json
 
 ___

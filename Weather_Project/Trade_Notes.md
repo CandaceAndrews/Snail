@@ -14,8 +14,6 @@ Implementing a creature trading feature in Django, a popular Python web framewor
 
 - Implement Trade Logic: Implement the logic for handling the actual trading process, such as updating the creature ownership and inventory for both users involved in a trade. You can use Django's built-in querysets and ORM (Object-Relational Mapping) to update the creature and user models in the database based on the trade details.
 
-- Implement Templates and Forms: Create HTML templates and forms for the trading views to provide a user-friendly interface for users to initiate and manage trades. These templates can include forms for creating trade offers, displaying trade requests, and providing feedback to users about the status of their trades.
-
 - Add Security Measures: Implement security measures in your trading feature, such as protecting against cross-site scripting (XSS), cross-site request forgery (CSRF), and other security vulnerabilities. Django provides built-in security features such as CSRF protection, but it's important to follow best practices to ensure the security of your trading feature.
 
 - Test and Debug: Thoroughly test your trading feature to identify and fix any issues or bugs. Test different scenarios, such as successful trades, failed trades, and edge cases, to ensure the correct behavior of the trading system. Debug any errors or unexpected behaviors that may arise during testing.

@@ -61,6 +61,15 @@ Profile page, shows your info and all your animals
 
 ___
 
+## 🐕 Animal Information
+
+Show information and trivia for the animal clicked on
+
+- Allowed Request: GET
+- Content-Type: application/json
+
+___
+
 ## 🦌 Catch Animal
 
 Click to catch the animal
@@ -106,11 +115,20 @@ Show your animals - FOR TRADING
 
 ___
 
-## 🐄 You Selected (trading version)
+## 🦒 You Selected (trading version)
 
 Show animal you want to trade, confirmation screen
 
 - Allowed Request: GET, POST
+- Content-Type: application/json
+
+___
+
+## 🦒 Trade Requested
+
+Show notification that trade request has been sent
+
+- Allowed Request: GET
 - Content-Type: application/json
 
 ___

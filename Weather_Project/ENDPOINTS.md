@@ -1,13 +1,12 @@
 ## 🐌  https://is-it-raining.herokuapp.com/
+
 - Base url for the API
 
 ___
 
+## 🐝   auth/users/
 
-
-## 🐝   /auth/users/
-
-✅ Creates a new user if `POST` request, if `GET` request returns stored info for logged in user
+- Creates a new user if `POST` request, if `GET` request returns stored info for logged in user
 
 - Allowed Request: GET, POST
 
@@ -28,14 +27,11 @@ Stored As:
     "username": "littlecowboy"
 }
 ```
-
 ___
 
+## 🌸   auth/token/login/
 
-
-## 🌸  /auth/token/login/
-
-✅ User login (user gets token, expires after certain amount of time)
+- User login (user gets token, expires after certain amount of time)
 
 - Allowed Request: POST
 
@@ -50,10 +46,8 @@ Example POST:
 
 ___
 
+## 🐓   auth/token/logout/
 
-
-## 🐓  /auth/token/logout/
-
-✅ User logs out and token is destroyed
+- User logs out and token is destroyed
 
 - Allowed Request: POST

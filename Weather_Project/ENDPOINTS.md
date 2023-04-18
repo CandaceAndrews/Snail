@@ -51,3 +51,16 @@ ___
 - User logs out and token is destroyed
 
 - Allowed Request: POST
+
+___
+
+## 🦆  auth/users/me/
+
+- Retreives/updates/deletes the authenticated user
+
+- Allowed Request: GET, PUT, PATCH, DELETE
+
+___
+
+### For more Djoser endpoints you can look here:
+- `https://djoser.readthedocs.io/en/latest/base_endpoints.html#user`

@@ -5,17 +5,17 @@
 ___
 ### API ENDPOINT Shortcuts
 
-| HTTP Verbs | Endpoints                           | Action                                     |
-| ---------- | ------------------------------------| ------------------------------------------ |
-| GET        | /auth/users                         | Return info for logged in user             |
-| POST       | /auth/users                         | Create new user                            |
-| POST       | /auth/token/login                   | User login                                 |
-| POST       | /auth/token/logout                  | User logout                                |
-| GET        | /auth/users/me                      | Retreives authenticated user               |
-| PATCH      | /auth/users/me                      | Update authenticated user                  |
-| DELETE     | /auth/users/me                      | Delete authenticated user                  |
-| GET        | /weather-animal/<int:original_code> | Random animal for weather passed in        |
-| GET        | /list-animals                       | List of all animals                        |
+| HTTP Verbs | Endpoints                             | Action                                     |
+| ---------- | ------------------------------------  | ------------------------------------------ |
+| GET        | /auth/users                           | Return info for logged in user             |
+| POST       | /auth/users                           | Create new user                            |
+| POST       | /auth/token/login                     | User login                                 |
+| POST       | /auth/token/logout                    | User logout                                |
+| GET        | /auth/users/me                        | Retreives authenticated user               |
+| PATCH      | /auth/users/me                        | Update authenticated user                  |
+| DELETE     | /auth/users/me                        | Delete authenticated user                  |
+| GET        | /weather-animal/\<int:original_code\> | Random animal for weather passed in        |
+| GET        | /list-animals                         | List of all animals                        |
 
 ___
 

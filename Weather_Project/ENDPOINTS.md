@@ -80,7 +80,7 @@ ___
 
 ___
 
-## 🦈   /weather-animal/<int:original_code>
+## 🦈   weather-animal/\<int:original_code\>
 
 - Randomly chooses an animal of the weather type passed in, `original_code` is the code for each weather type from the API documentation (ex. 800 for Clear, 100 for Thunderstorm)
 

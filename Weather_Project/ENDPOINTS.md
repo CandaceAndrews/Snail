@@ -211,15 +211,15 @@ ___
 
 ## 🦇   trade/\<offered_animal\>/\<desired_animal\>/\<trade_receiver_username\>/
 
-- Logged in user make a request to another user to trade animals
+- Logged in user makes a request to another user to trade animals
 
 - Allowed Request: POST
 
-- `\<offered_animal\>` is replaced with the name of the animal that the logged in user wants to offer in trade
+- `<offered_animal>` is replaced with the name of the animal that the logged in user wants to offer in trade
 
-- `\<desired_animal\>` is replaced with the name of the animal that the logged in user wants
+- `<desired_animal>` is replaced with the name of the animal that the logged in user wants
 
-- `\<trade_receiver_username\>` is replaced with the user that the logged in user wants to trade with
+- `<trade_receiver_username>` is replaced with the user that the logged in user wants to trade with
 
 
 Example url request:

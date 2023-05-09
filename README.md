@@ -1,3 +1,3 @@
-# Snail
+# Snail 🐌
 
-Notes for class
+Various notes taken for future reference

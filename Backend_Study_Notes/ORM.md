@@ -1,4 +1,4 @@
-* ORM
+# ORM
 
 In Python, ORM stands for `Object-Relational Mapping`. It is a technique that allows developers to interact with a relational database using object-oriented programming concepts. ORM libraries provide a way to map the data stored in database tables to Python objects, making it easier to perform database operations without writing raw SQL queries.
 

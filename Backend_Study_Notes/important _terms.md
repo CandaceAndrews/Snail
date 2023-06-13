@@ -1,8 +1,8 @@
 ### Terms
 
-- `API`: Application Programming Interface. It defines how different software components should interact with each other.
+- `API:` Application Programming Interface. It defines how different software components should interact with each other.
 
-- `REST`: Representational State Transfer. It is an architectural style for designing networked applications using HTTP protocols. Understanding RESTful principles is crucial for designing scalable and maintainable APIs.
+- `REST:` Representational State Transfer. It is an architectural style for designing networked applications using HTTP protocols. Understanding RESTful principles is crucial for designing scalable and maintainable APIs.
 
 - `Database:` A structured collection of data that is organized and accessible in various ways. Familiarize yourself with relational databases (e.g., MySQL, PostgreSQL) and NoSQL databases (e.g., MongoDB, Redis) and their differences.
 

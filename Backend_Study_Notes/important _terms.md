@@ -1,4 +1,4 @@
-### Terms
+# Important Terms
 
 - `API:` Application Programming Interface. It defines how different software components should interact with each other.
 

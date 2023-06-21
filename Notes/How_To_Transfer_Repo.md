@@ -1,3 +1,3 @@
 # How To Transfer Your Repository
 
-![Transfer Repo](Momentum/Snail/pictures/how_to_transfer_repo.png)
+![Transfer Repo](Snail/pictures/how_to_transfer_repo.png)

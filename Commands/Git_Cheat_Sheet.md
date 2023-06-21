@@ -51,7 +51,6 @@ Git is an extremely powerful tool with plenty more commands and options.
 However, this guide gives you a good start and reference point as you continue to explore and leverage Git for your version control needs.
 
 
-![git cheat sheet](pictures/git_cheat_sheet.jpeg)
 
 ___
 

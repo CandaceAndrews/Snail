@@ -32,3 +32,5 @@
 	install django extensions
 
 ### pip install whitenoise
+
+### pip install whitenoise
